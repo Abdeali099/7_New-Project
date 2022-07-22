@@ -1,6 +1,6 @@
 /* Css Reset */
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -8,10 +8,28 @@
 /* ------------------  Styling A NavigationBar ------------------  */
 
 
-#NavigationBar{
+#NavigationBar {
     display: flex;
     align-items: center;
+    position: relative; /* depends On size of its content or By edfault place*/
 }
+
+/* Adding Background By Using Before Psudo Selector */
+
+#NavigationBar::before {
+    /* It is A coumplsory*/
+    content: "";
+    position: absolute; /* depend On Parents*/
+    width: 100%;
+    height: 100%;
+
+    /* It Is a optional */
+    background-color: black;
+    z-index: -1;
+    /* to take backside of the menu and logo*/
+    opacity: .5;
+}
+
 
 /* Navihation Bar : Logo */
 
@@ -19,7 +37,7 @@
     margin: 10px 34px;
 }
 
-#logo img{
+#logo img {
     height: 88px;
     margin: 10px;
 }
@@ -27,20 +45,28 @@
 
 /* Navigation Bar : Menu */
 
-#NavigationBar ul{
+#NavigationBar ul {
     display: flex;
     align-items: center;
 }
 
-#NavigationBar ul  li{
-   list-style: none;
-   font-size: 1.2rem; /* 1 rem : 16px(browser font size) if not define in root*/
+#NavigationBar ul li {
+    list-style: none;
+    font-size: 1.2rem;
+    /* 1 rem : 16px(browser font size) if not define in root*/
 }
 
-#NavigationBar ul  li a{
-    padding: 1rem; /* here Is a Banifit For Giving padding : At Hover effect you can Accses all anchor tag space*/
+#NavigationBar ul li a {
+    color: white;
+    padding: 1rem;
+    /* here Is a Banifit For Giving padding : At Hover effect you can Accses all anchor tag space*/
     text-decoration: none;
-    border: 1px solid red;
-    border-radius: 10px;
-   
+    /* border: 1px solid red; */
+    border-radius: 20px;
+
+}
+
+#NavigationBar ul li a:hover {
+    color: black;
+    background-color: white;
 }
