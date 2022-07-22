@@ -1,0 +1,14 @@
+/* Css Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------  Styling A NavigationBar ------------------  */
+
+
+#NavigationBar{
+    display: flex;
+    align-items: center;
+}
