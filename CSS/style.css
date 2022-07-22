@@ -70,3 +70,70 @@
     color: black;
     background-color: white;
 }
+
+
+/* ------------------  Styling A Home-Section ------------------  */
+
+#home{
+  display: flex;
+  flex-direction: column;
+  padding: 1.31rem 12.5rem;
+  align-items: center;
+  justify-content: center;
+  height: 25rem;
+}
+ 
+   /* Adding a Background */
+
+#home::before{
+     /* It is A coumplsory*/
+     content: "";
+     position: absolute; /* depend On Parents*/
+     width: 100%;
+     height: 100%;
+ 
+     /* It Is a optional */
+     background:url('../bg1.jpg') no-repeat center center/cover; /* No idea : Search this*/
+     z-index: -1;
+     /* to take backside of the menu and logo*/
+     opacity: .89;
+}     
+
+ /* Styling in heading*/
+
+#home h1{
+    color: white;
+    text-align: center;
+}
+
+ /* --- Utility class for h1 --- */
+ .h-primary{
+    padding: 10px;
+    font-size: 2.2rem;
+ }
+
+ /* styling in paragraph*/
+
+ #home p{
+    color: white;
+    text-align: center;
+ }
+
+ /* --- Utility class for p --- */
+ .p-normal{
+    padding: 5px;
+    font-size: 1.1rem;
+ }
+
+ /* styling in button*/
+
+ #Home-Button{
+    padding: 10px;
+    border: 2px solid white;
+    font-size: 1.3rem;
+    margin: 15px;
+    background-color: brown;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+ }
