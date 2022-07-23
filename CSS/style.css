@@ -172,20 +172,20 @@
  /* Styling in section  */
  #Client-Container{
     border: 2px solid red;
-    height: 400px;
+    height: 300px;
  }
 
  #Client-Container::before{
     content: "";
     position: absolute; /* depend On Parents */
     width: 100%;
-    height: 400px;
+    height: 300px;
 
     /* It Is a optional */
     background:url('../bg1.jpg') no-repeat center center/cover; /* No idea : Search this */
     z-index: -1;
     /* to take backside of the menu and logo*/
-    opacity: .5;        
+    opacity: .2;        
  }
 
  /* Styling In Clients container */
@@ -209,7 +209,53 @@
     width: 144px;
  }
 
+  /* ------------------  Styling A Client-Section ------------------  */
 
+  /* Styling in section */
+  #Contact-Container{
+    border: 2px solid red;
+    height: 300px;
+ }
+
+ #Contact-Container::before{
+    content: "";
+    position: absolute; /* depend On Parents */
+    width: 100%;
+    height: 300px;
+
+    /* It Is a optional */
+    background:url('../contact.jpg') no-repeat center center/cover; /* No idea : Search this */
+    z-index: -1;
+    /* to take backside of the menu and logo*/
+    opacity: .5;        
+ }
+
+
+ /* Styling In Main container */
+ #Container-All{
+    border: 1px solid purple;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ }
+
+ /* Styling in form Container */
+
+
+ /* Styling In A Form */
+
+ /* ------------------  Styling A Footer ------------------  */
+
+ .Footer-Div{
+    text-align: center;
+ }
+
+ footer{
+    background-color: black;
+    color: white;
+    padding: 15px;
+ }
 
  /* ------------------  Utility classes ------------------  */
 
