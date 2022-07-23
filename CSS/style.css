@@ -11,7 +11,8 @@
 #NavigationBar {
     display: flex;
     align-items: center;
-    position: relative; /* depends On size of its content or By edfault place*/
+    position: relative;
+    /* depends On size of its content or By edfault place*/
 }
 
 /* Adding Background By Using Before Psudo Selector */
@@ -19,7 +20,8 @@
 #NavigationBar::before {
     /* It is A coumplsory*/
     content: "";
-    position: absolute; /* depend On Parents*/
+    position: absolute;
+    /* depend On Parents*/
     width: 100%;
     height: 100%;
 
@@ -74,51 +76,54 @@
 
 /* ------------------  Styling A Home-Section ------------------  */
 
-#home{
+#home {
     border: 2px solid red;
-  display: flex;
-  flex-direction: column;
-  padding: 1.31rem 12.5rem;
-  align-items: center;
-  justify-content: center;
-  height: 34rem;
-  background:url('../bg1.jpg') no-repeat center center/cover; /* No idea : Search this*/
-  opacity: .9;
-}
- 
-   /* Adding a Background */
+    display: flex;
+    flex-direction: column;
+    padding: 1.31rem 12.5rem;
+    align-items: center;
+    justify-content: center;
+    height: 34rem;
+    /* background: url('../bg1.jpg') no-repeat center center/cover;
+    No idea : Search this
+    opacity: .9; */
 
-/* #home::before{
-     /* It is A coumplsory
+    position: relative;
+}
+
+/* Adding a Background */
+
+ #home::before{
+     /* /* It is A coumplsory */
      content: "";
-     position: absolute; /* depend On Parents
+     position: absolute; /* depend On Parents*/
      width: 100%;
      height: 100%;
  
-     /* It Is a optional 
-     background:url('../bg1.jpg') no-repeat center center/cover; /* No idea : Search this
+     /* It Is a optional */
+     background:url('../bg1.jpg') no-repeat center center/cover; /* No idea : Search this*/
      z-index: -1;
-     /* to take backside of the menu and logo
+     /* to take backside of the menu and logo*/
      opacity: .89;
-}      */
+}      
 
- /* Styling in heading*/
+/* Styling in heading*/
 
-#home h1{
-    color:white;
-  
+#home h1 {
+    color: white;
+
 }
 
- /* styling in paragraph*/
+/* styling in paragraph*/
 
- #home p{
+#home p {
     color: white;
- }
+}
 
- 
- /* styling in button*/
 
- #Home-Button{
+/* styling in button*/
+
+#Home-Button {
     padding: 10px;
     border: 2px solid white;
     font-size: 1.3rem;
@@ -127,24 +132,24 @@
     color: rgb(55, 160, 13);
     border-radius: 15px;
     cursor: pointer;
- }
+}
 
- /* ------------------  Styling A Services-Section ------------------  */
+/* ------------------  Styling A Services-Section ------------------  */
 
- /* styling section */
- #services-container{
+/* styling section */
+#services-container {
     border: 2px solid green;
 
- }
+}
 
- /* Styling a heading */
-#services-container h1{
- color: rgb(10, 10, 10);
+/* Styling a heading */
+#services-container h1 {
+    color: rgb(10, 10, 10);
 }
 
 /* styling a Div : Service  which contains [Div>img,h2,p] */
 
-.Services{
+.Services {
     display: flex;
     margin: 2.18rem;
 }
@@ -153,7 +158,7 @@
 
 /* styling a Div:Box ,Horarchy : services>Box >img,h2,p, */
 
-.Services .box{
+.Services .box {
     border: 2px solid blue;
     border-radius: 20px;
     margin: 10px;
@@ -161,85 +166,91 @@
     background-color: #c3b8b4;
 
 }
-.Services .box img{
+
+.Services .box img {
     display: block;
     height: 10rem;
     margin: auto;
 }
 
- /* ------------------  Styling A Client-Section ------------------  */
+/* ------------------  Styling A Client-Section ------------------  */
 
- /* Styling in section  */
- #Client-Container{
+/* Styling in section  */
+#Client-Container {
     border: 2px solid red;
     height: 300px;
- }
+}
 
- #Client-Container::before{
+#Client-Container::before {
     content: "";
-    position: absolute; /* depend On Parents */
+    position: absolute;
+    /* depend On Parents */
     width: 100%;
     height: 300px;
 
     /* It Is a optional */
-    background:url('../bg1.jpg') no-repeat center center/cover; /* No idea : Search this */
+    background: url('../bg1.jpg') no-repeat center center/cover;
+    /* No idea : Search this */
     z-index: -1;
     /* to take backside of the menu and logo*/
-    opacity: .2;        
- }
+    opacity: .2;
+}
 
- /* Styling In Clients container */
- #AllClients{
+/* Styling In Clients container */
+#AllClients {
     border: 1px solid purple;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
- }
+}
 
- /* styling in box */
+/* styling in box */
 
- .Clients{
+.Clients {
     border: 1px solid blue;
-    margin:34px
- }
- 
- /* Styling in image */
- .Clients img{
+    margin: 34px
+}
+
+/* Styling in image */
+.Clients img {
     width: 144px;
- }
+}
 
-  /* ------------------  Styling A Client-Section ------------------  */
+/* ------------------  Styling A Client-Section ------------------  */
 
-  /* Styling in section */
-  #Contact-Container{
+/* Styling in section */
+#Contact-Container {
     box-sizing: border-box;
     border: 2px solid red;
     /* height: 300px; */
-    position: relative; /* It Is a Important if Psudo is absolute*/
- }
+    position: relative;
+    /* It Is a Important if Psudo is absolute*/
+}
 
- #Contact-Container::before{
+#Contact-Container::before {
     content: "";
-    position: absolute; /* depend On Parents */
+    position: absolute;
+    /* depend On Parents */
     width: 100%;
     height: 100%;
 
 
     /* It Is a optional */
-    background:url('../contact.jpg') no-repeat center center/cover; /* No idea : Search this */
+    background: url('../contact.jpg') no-repeat center center/cover;
+    /* No idea : Search this */
     z-index: -1;
     /* to take backside of the menu and logo*/
-    opacity: .5;        
- }
+    opacity: .5;
+}
 
- form{
+form {
     width: 40%;
- }
+}
 
 
- /* Styling In Main container */
- #Container-All{
+/* Styling In Main container */
+#Container-All {
     box-sizing: border-box;
     border: 1px solid purple;
     display: flex;
@@ -247,73 +258,76 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 30px;
- }
+}
+
 /* Extra div */
 
 /* Styling in Form-Group */
 
-.form-grp{
+.form-grp {
     border: 1px solid rgb(55, 160, 13);
     box-sizing: border-box;
     padding: .5rem;
 }
 
- /* Styling in form Container */
+/* Styling in form Container */
 
- 
- /* styling in section */
- 
- /* styling in Main Container */
- 
- 
- /* Styling in Input type */
- 
- #Container-All input,textarea{
+
+/* styling in section */
+
+/* styling in Main Container */
+
+
+/* Styling in Input type */
+
+#Container-All input,
+textarea {
     box-sizing: border-box;
-        width: 100%;
-        padding: .5rem;
-        border-radius: 10px;
-        font-size: 1.1rem;
- }
- /* Styling In text area  */
+    width: 100%;
+    padding: .5rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+/* Styling In text area  */
 
 
 
 
- /* Styling In A Form */
+/* Styling In A Form */
 
- /* ------------------  Styling A Footer ------------------  */
+/* ------------------  Styling A Footer ------------------  */
 
- .Footer-Div{
+.Footer-Div {
     text-align: center;
- }
+}
 
- footer{
+footer {
     background-color: black;
     color: white;
     padding: 15px;
- }
+}
 
- /* ------------------  Utility classes ------------------  */
+/* ------------------  Utility classes ------------------  */
 
- /* --- Utility class for p --- */
- .p-normal{
+/* --- Utility class for p --- */
+.p-normal {
     padding: 5px;
     font-size: 1.1rem;
     text-align: center;
- }
+}
 
- 
- /* --- Utility class for h1 --- */
- .h-primary{
+
+/* --- Utility class for h1 --- */
+.h-primary {
     padding: 10px;
     font-size: 2.2rem;
     text-align: center;
- }
+}
 
- /* --- Utility class for h2 --- */
- .h-secondry{
+/* --- Utility class for h2 --- */
+.h-secondry {
     padding: 10px;
     font-size: 1.2rem;
     text-align: center;
- }
+}
