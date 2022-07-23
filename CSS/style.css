@@ -11,7 +11,12 @@
 #NavigationBar {
     display: flex;
     align-items: center;
-    position: relative; /* depends On size of its content or By edfault place*/
+    /* position: relative; depends On size of its content or By edfault place */
+
+     /* Changing for alignment */
+     position: relative;
+     top: 0px;
+     left: 0px;
 }
 
 /* Adding Background By Using Before Psudo Selector */
@@ -22,12 +27,15 @@
     position: absolute; /* depend On Parents*/
     width: 100%;
     height: 100%;
-
     /* It Is a optional */
     background-color: black;
     z-index: -1;
     /* to take backside of the menu and logo*/
-    opacity: .5;
+    opacity: 0.7;
+
+    /* To Make All Alihgnment Perfect */
+    top: 0px;
+    left: 0px;
 }
 
 
@@ -81,26 +89,30 @@
   padding: 1.31rem 12.5rem;
   align-items: center;
   justify-content: center;
-  height: 34rem;
-  background:url('../bg1.jpg') no-repeat center center/cover; /* No idea : Search this*/
-  opacity: .9;
+  height: 286px; /* Change for alignment*/
+  /* background:url('../bg1.jpg') no-repeat center center/cover; No idea : Search this */
+  /* opacity: 0.0; */
 }
  
    /* Adding a Background */
 
-/* #home::before{
-     /* It is A coumplsory
+#home::before{
+     /* It is A coumplsory */
      content: "";
-     position: absolute; /* depend On Parents
+     position: absolute; /* depend On Parents */
      width: 100%;
-     height: 100%;
- 
-     /* It Is a optional 
-     background:url('../bg1.jpg') no-repeat center center/cover; /* No idea : Search this
+     height: 78%; /* change for alignment*/
+     /* It Is a optional */
+     background:url('../bg1.jpg') no-repeat center center/cover; /* No idea : Search this */
      z-index: -1;
-     /* to take backside of the menu and logo
+     /* to take backside of the menu and logo*/
      opacity: .89;
-}      */
+
+     /* To Make All Alignment Good and Perfect */
+
+     top: 0;
+     left: 0;
+}     
 
  /* Styling in heading*/
 
