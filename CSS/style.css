@@ -76,13 +76,14 @@
 
 #home{
     border: 2px solid red;
-
   display: flex;
   flex-direction: column;
   padding: 1.31rem 12.5rem;
   align-items: center;
   justify-content: center;
   height: 34rem;
+  background:url('../bg1.jpg') no-repeat center center/cover; /* No idea : Search this*/
+  opacity: .9;
 }
  
    /* Adding a Background */
@@ -104,14 +105,14 @@
  /* Styling in heading*/
 
 #home h1{
-    color: rgb(0, 0, 0);
+    color:white;
   
 }
 
  /* styling in paragraph*/
 
  #home p{
-    color: rgb(0, 0, 0);
+    color: white;
  }
 
  
@@ -158,6 +159,11 @@
 
 .Services .box{
     border: 2px solid blue;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 7px;
+    background-color: #c3b8b4;
+
 }
 .Services .box img{
     display: block;
