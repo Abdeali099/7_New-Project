@@ -13,7 +13,7 @@
 
 
 #NavigationBar {
-    display: flex;
+    display:flex; flex-wrap:wrap;
     align-items: center;
     position: relative;
     /* depends On size of its content or By edfault place*/
@@ -52,7 +52,7 @@
 /* Navigation Bar : Menu */
 
 #NavigationBar ul {
-    display: flex;
+    display:flex; flex-wrap:wrap;
     align-items: center;
 }
 
@@ -83,7 +83,7 @@
 
 #home {
     border: 2px solid red;
-    display: flex;
+    display:flex; flex-wrap:wrap;
     flex-direction: column;
     padding: 1.31rem 12.5rem;
     align-items: center;
@@ -154,9 +154,11 @@
 /* styling a Div : Service  which contains [Div>img,h2,p] */
 
 .Services {
-    display: flex;
+    display:flex; 
+    flex-wrap:wrap;
     margin: 2.18rem;
     margin-top: 0px;
+    justify-content: space-evenly;
 }
 
 
@@ -164,8 +166,10 @@
 /* styling a Div:Box ,Horarchy : services>Box >img,h2,p, */
 
 .Services .box {
+    display: inline-block;
     border: 2px solid blue;
     border-radius: 20px;
+    width: 30%;
     margin: 32px 84px;
     margin: 10px;
     padding: 7px;
@@ -207,10 +211,14 @@
 /* Styling In Clients container */
 #AllClients {
     border: 1px solid purple;
-    display: flex;
+    display:flex; flex-wrap:wrap;
+   
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 94vw;
+    margin: auto;
 }
 
 /* styling in box */
@@ -262,7 +270,7 @@ form {
 #Container-All {
     box-sizing: border-box;
     border: 1px solid purple;
-    display: flex;
+    display:flex; flex-wrap:wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -312,7 +320,7 @@ textarea {
 }
 
 .d-flex{
-    display: flex;
+    display:flex; flex-wrap:wrap;
     justify-content: end;
 }
 

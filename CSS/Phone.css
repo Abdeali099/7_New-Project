@@ -1,0 +1,207 @@
+/* Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Checking */
+body{
+    background-color: red;
+}
+
+/* ------------------  Styling A NavigationBar ------------------  */
+
+
+#NavigationBar {
+   
+}
+
+/* Adding Background By Using Before Psudo Selector */
+
+#NavigationBar::before {
+
+}
+
+
+/* Navihation Bar : Logo */
+
+#logo {
+    
+}
+
+#logo img {
+   
+}
+
+
+/* Navigation Bar : Menu */
+
+#NavigationBar ul {
+   
+}
+
+#NavigationBar ul li {
+   
+}
+
+#NavigationBar ul li a {
+   
+}
+
+#NavigationBar ul li a:hover {
+   
+}
+
+
+/* ------------------  Styling A Home-Section ------------------  */
+
+#home {
+ 
+}
+
+/* Adding a Background */
+
+ #home::before{
+   
+}      
+
+/* Styling in heading*/
+
+#home h1 {
+  
+}
+
+/* styling in paragraph*/
+
+#home p {
+  }
+
+
+/* styling in button*/
+
+#Home-Button {
+ 
+    
+}
+
+#Home-Button:hover {
+   
+}
+
+/* ------------------  Styling A Services-Section ------------------  */
+
+/* styling section */
+#services-container {
+   
+   
+
+}
+
+/* Styling a heading */
+#services-container h1 {
+}
+
+/* styling a Div : Service  which contains [Div>img,h2,p] */
+
+.Services {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+ 
+}
+
+
+
+/* styling a Div:Box ,Horarchy : services>Box >img,h2,p, */
+
+.Services .box {
+    width: 90vw;
+
+}
+
+.Services .box img {
+ 
+}
+
+/* ------------------  Styling A Client-Section ------------------  */
+
+/* Styling in section  */
+#Client-Container {
+
+}
+
+#Client-Container::before {
+   
+   
+}
+
+/* Styling In Clients container */
+#AllClients {
+    
+}
+
+/* styling in box */
+
+.Clients {
+}
+
+/* Styling in image */
+.Clients img {
+   
+}
+
+/* ------------------  Styling A Client-Section ------------------  */
+
+/* Styling in section */
+#Contact-Container {
+
+}
+
+#Contact-Container::before {
+
+}
+
+form {
+  
+}
+
+
+/* Styling In Main container */
+#Container-All {
+   
+}
+
+/* Extra div */
+
+/* Styling in Form-Group */
+
+.form-grp {
+   
+}
+
+/* Styling in Input type */
+
+#Container-All input,
+textarea {
+   
+}
+
+/* Styling in Button */
+
+#Container-All button
+{
+    
+}
+
+#Container-All button:hover
+{
+    
+}
+
+.d-flex{
+   
+}
+
+/* Styling In text area  */
+
