@@ -2,104 +2,77 @@
 *{
     margin: 0px;
     padding: 0px;
+    /* overflow: hidden;  */
 }
 
-/* Checking */
-body{
-    background-color: red;
-}
+
 
 /* ------------------  Styling A NavigationBar ------------------  */
 
-
-#NavigationBar {
-   
-}
-
-/* Adding Background By Using Before Psudo Selector */
-
-#NavigationBar::before {
-
-}
-
-
-/* Navihation Bar : Logo */
-
-#logo {
+@media screen and (max-width:591px)
+{ 
+    #NavigationBar
+     {
+          flex-direction: column;
+     }
     
 }
 
-#logo img {
-   
+
+
+
+@media screen  and (max-width:363px){
+
+    #NavigationBar ul li a {
+       font-size: 1rem;
+       padding: 0.5rem;
+       margin: 5px;
+    }
+    
+    #NavigationBar ul {
+        margin-bottom: 11px;
+    }
+}
+
+@media screen  and (max-width:295px)
+{
+    #NavigationBar ul li a {
+        font-size: 0.8rem;
+        padding: 0.2rem;
+     }
+     
+     #NavigationBar ul {
+         margin-bottom: 11px;
+     }
 }
 
 
-/* Navigation Bar : Menu */
 
-#NavigationBar ul {
-   
-}
-
-#NavigationBar ul li {
-   
-}
-
-#NavigationBar ul li a {
-   
-}
-
-#NavigationBar ul li a:hover {
-   
-}
 
 
 /* ------------------  Styling A Home-Section ------------------  */
 
-#home {
- 
-}
-
-/* Adding a Background */
-
- #home::before{
-   
-}      
-
-/* Styling in heading*/
-
-#home h1 {
-  
-}
-
-/* styling in paragraph*/
-
-#home p {
-  }
-
-
-/* styling in button*/
-
-#Home-Button {
- 
+@media screen and (max-width:572px)
+{ 
+    #home
+     {
+          flex-direction: column;
+          flex-wrap: nowrap;
+          height: 47rem;
+          justify-content: space-evenly;
+          padding: 1.31rem 6.5rem;
+     }
     
 }
 
-#Home-Button:hover {
-   
+@media screen  and (max-width:295px)
+{
+    #home
+    {
+        padding: 0.05rem 0.5rem;
+    }
 }
 
-/* ------------------  Styling A Services-Section ------------------  */
-
-/* styling section */
-#services-container {
-   
-   
-
-}
-
-/* Styling a heading */
-#services-container h1 {
-}
 
 /* styling a Div : Service  which contains [Div>img,h2,p] */
 
@@ -108,7 +81,7 @@ body{
     align-items: center;
     justify-content: center;
     margin: 10px;
- 
+    margin-left: 6px;
 }
 
 
@@ -117,6 +90,7 @@ body{
 
 .Services .box {
     width: 90vw;
+    padding: 0px;
 
 }
 
@@ -126,82 +100,29 @@ body{
 
 /* ------------------  Styling A Client-Section ------------------  */
 
-/* Styling in section  */
-#Client-Container {
 
-}
-
-#Client-Container::before {
-   
-   
-}
-
-/* Styling In Clients container */
-#AllClients {
-    
-}
-
-/* styling in box */
-
-.Clients {
-}
-
-/* Styling in image */
-.Clients img {
-   
-}
-
-/* ------------------  Styling A Client-Section ------------------  */
-
-/* Styling in section */
-#Contact-Container {
-
-}
-
-#Contact-Container::before {
-
-}
-
-form {
-  
-}
-
-
-/* Styling In Main container */
-#Container-All {
-   
-}
-
-/* Extra div */
-
-/* Styling in Form-Group */
-
-.form-grp {
-   
-}
-
-/* Styling in Input type */
-
-#Container-All input,
-textarea {
-   
-}
-
-/* Styling in Button */
-
-#Container-All button
+@media screen  and (max-width:947px) and (min-width:190px)
 {
-    
-}
-
-#Container-All button:hover
-{
-    
-}
-
-.d-flex{
    
+    /* Styling in section  */
+    #Client-Container {
+        /* overflow: hidden; */
+        height: 343px;
+    }
+    
+    #Client-Container::before {
+        height: 343px;
+       
+    }
+    
+    /* Styling In Clients container */
+    #AllClients {
+        width: 91vw;
+    }
+
+    .Clients img {
+        /* overflow: hidden; */
+        width: 58px;
+       
+    }
 }
-
-/* Styling In text area  */
-

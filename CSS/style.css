@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root{
     --MarginTop:10px;
 }
@@ -17,6 +21,8 @@
     align-items: center;
     position: relative;
     /* depends On size of its content or By edfault place*/
+    /* position: sticky; */
+    /* position: fixed; */
 }
 
 /* Adding Background By Using Before Psudo Selector */
@@ -83,7 +89,8 @@
 
 #home {
     border: 2px solid red;
-    display:flex; flex-wrap:wrap;
+    display:flex; 
+    /* flex-wrap:wrap; */
     flex-direction: column;
     padding: 1.31rem 12.5rem;
     align-items: center;
