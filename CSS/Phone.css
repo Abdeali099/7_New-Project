@@ -71,6 +71,11 @@
     {
         padding: 0.05rem 0.5rem;
     }
+
+    form {
+        width: 70%;
+    }
+    
 }
 
 
@@ -94,9 +99,6 @@
 
 }
 
-.Services .box img {
- 
-}
 
 /* ------------------  Styling A Client-Section ------------------  */
 

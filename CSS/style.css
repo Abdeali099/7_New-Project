@@ -19,9 +19,10 @@ html{
 #NavigationBar {
     display:flex; flex-wrap:wrap;
     align-items: center;
-    position: relative;
+    /* position: relative; */
     /* depends On size of its content or By edfault place*/
-    /* position: sticky; */
+    position: sticky;
+    top: 0px;
     /* position: fixed; */
 }
 
@@ -88,7 +89,7 @@ html{
 /* ------------------  Styling A Home-Section ------------------  */
 
 #home {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display:flex; 
     /* flex-wrap:wrap; */
     flex-direction: column;
@@ -149,7 +150,7 @@ html{
 /* styling section */
 #services-container {
     margin-top: var(--MarginTop);
-    border: 2px solid green;
+    /* border: 2px solid green; */
 
 }
 
@@ -174,7 +175,7 @@ html{
 
 .Services .box {
     display: inline-block;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     border-radius: 20px;
     width: 30%;
     margin: 32px 84px;
@@ -196,7 +197,7 @@ html{
 #Client-Container {
     margin-top: var(--MarginTop);
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 300px;
 }
 
@@ -217,7 +218,7 @@ html{
 
 /* Styling In Clients container */
 #AllClients {
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     display:flex; flex-wrap:wrap;
    
     flex-direction: row;
@@ -231,7 +232,7 @@ html{
 /* styling in box */
 
 .Clients {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 34px
 }
 
@@ -246,7 +247,7 @@ html{
 #Contact-Container {
     margin-top: var(--MarginTop);
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* height: 300px; */
     position: relative;
     /* It Is a Important if Psudo is absolute*/
@@ -276,7 +277,7 @@ form {
 /* Styling In Main container */
 #Container-All {
     box-sizing: border-box;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     display:flex; flex-wrap:wrap;
     flex-direction: row;
     justify-content: center;
@@ -289,7 +290,7 @@ form {
 /* Styling in Form-Group */
 
 .form-grp {
-    border: 1px solid rgb(55, 160, 13);
+    /* border: 1px solid rgb(55, 160, 13); */
     box-sizing: border-box;
     padding: .5rem;
 }
